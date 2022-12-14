@@ -46,15 +46,27 @@
       transition: 0.3s;
       z-index: -1;
       background: rgba(0, 0, 0, 0.7);
-      li{
+
+      li {
         padding: 1rem 0;
       }
-      a{
+
+      a {
         font-size: 2rem;
       }
-      &.active{
+
+      &.active {
         left: 0;
       }
     }
   }
+}
+
+.header-bg {
+  background-color: rgba(0, 0, 0, .8);
+  transform: .5s;
+  -webkit-transform: .5s;
+  -moz-transform: .5s;
+  -ms-transform: .5s;
+  -o-transform: .5s;
 }
